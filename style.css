@@ -1,0 +1,38 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-image: url("images/sky.jpg");
+  background-size: 100%;
+  width: 100%;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  display: block;
+}
+header img {
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 25px;
+  display: block;
+  margin: 0px auto;
+}
+header h5 {
+  display: inline-block;
+}
+
+#qpwo {
+  background-image: url("images/coolback.jpg");
+  background-size: 100%;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  display: block;
+}
+
+#orange {
+  color: orange;
+}
