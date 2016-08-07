@@ -1,38 +1,75 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
 body {
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
   margin: 0;
 }
 
+h1,
+h2 {
+  color: #333;
+}
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+  color: black;
+  font-weight: 400;
+}
+
 header {
-  background-image: url("images/sky.jpg");
-  background-size: 100%;
+  font-family: "Roboto", "Georgia", "Arial", sans-serif;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   width: 100%;
+  text-align: center;
+  background-image: url(images/sky.jpg);
   color: white;
-  padding-top: 80px;
-  padding-bottom: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 15vw 2em;
   display: block;
 }
+
+header a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #e81c4f;
+  padding: 10px;
+  font-weight: 100;
+  border-radius: 10px;
+}
+
+header a:hover {
+  background-color: #e81c4f;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
 header img {
-  width: 50px;
-  border: 2px solid white;
-  border-radius: 25px;
-  display: block;
-  margin: 0px auto;
-}
-header h5 {
+  vertical-align: top;
   display: inline-block;
+  width: 70px;
+  border-radius: 35px;
+  border: 2px solid white
 }
 
-#qpwo {
-  background-image: url("images/coolback.jpg");
-  background-size: 100%;
+header h1 {
   color: white;
-  padding-top: 30px;
-  padding-bottom: 60px;
-  display: block;
+  font-size: 2.5em;
+  font-weight: 300;
 }
 
-#orange {
-  color: orange;
+a {
+  color: #e81c4f;
+}
+
+#allstuf {
+
+  font-family: "Roboto", "Georgia", "Arial", sans-serif;
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 4em 1em;
+  color: #566b78;
 }
