@@ -4,10 +4,6 @@ body {
   margin: 0;
 }
 
-h1,
-h2 {
-  color: #333;
-}
 h2 {
   margin-top: 1em;
   padding-top: 1em;
@@ -35,9 +31,9 @@ header a {
   color: white;
   text-decoration: none;
   border: 1px solid #e81c4f;
-  padding: 10px;
+  padding: 0.6em;
   font-weight: 100;
-  border-radius: 10px;
+  border-radius: 0.6em;
 }
 
 header a:hover {
@@ -49,27 +45,204 @@ header a:hover {
 header img {
   vertical-align: top;
   display: inline-block;
-  width: 70px;
-  border-radius: 35px;
-  border: 2px solid white
+  width: 4.6em;
+  border-radius: 2.5em;
+  border: 2px solid #e81c4f;
 }
 
 header h1 {
   color: white;
+  letter-spacing: 0.1em;
   font-size: 2.5em;
   font-weight: 300;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  margin: 0.5em 3em 0.5em 3em;
+  margin-bottom: 1.5em;
+  margin-top: 1em;
+  list-style-type: none;
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  border: 1px solid #e81c4f;
+  padding: 0.6em;
+  font-weight: 100;
+  border-radius: 0.6em;
+  letter-spacing: 0.1em;
+}
+
+li a:hover {
+  color: white;
+  background-color: #e81c4f;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
 }
 
 a {
   color: #e81c4f;
 }
 
-#allstuf {
+.itp {
+  text-align: center;
+}
+.itp p {
+  font-weight: 100;
+  font-style: italic;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  width: 18.75em;
+  margin-top: 0.4em;
+}
+.itp img {
+  width: 18.75em;
+  margin-top: 2.5em;
+}
 
+#story {
+  margin-top: -2.5em;
+}
+
+#allstuf {
   font-family: "Roboto", "Georgia", "Arial", sans-serif;
   margin: 0 auto;
   max-width: 50em;
   line-height: 1.5;
   padding: 4em 1em;
-  color: #566b78;
+  color: #2f4f4f;
+  font-weight: 400;
+}
+
+#allstuf b {
+  font-weight: 500;
+}
+
+#char img {
+    width: 15em;
+}
+
+#finel {
+  text-align: center;
+  border: 1px solid #2f4f4f;
+  padding: 0.3125em;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  border-radius: 0.625em;
+  width: 9em;
+  margin: 0 auto;
+  margin-top: 3.75em;
+  font-weight: 100;
+  font-size: 0.75em;
+}
+
+#audbn {
+  text-align: center;
+}
+#audbn img {
+  margin: 0 auto;
+  width: 25em;
+  margin-top: 1.5em;
+}
+
+#char * {
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+#char span {
+  margin-left: 5em;
+  padding: 1em;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  font-weight: 100;
+  font-style: italic;
+}
+
+#char {
+  margin-top: -23em;
+  display: flex;
+}
+
+#weixun * {
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+#weixun span {
+  margin-left: 3.5em;
+  padding: 1em;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  font-weight: 100;
+  font-style: italic;
+}
+
+#weixun img {
+    width: 20em;
+}
+
+#weixun {
+  margin-top: -27em;
+  margin-bottom: -5em;
+  display: flex;
+}
+
+#meditate img {
+    width: 10em;
+}
+#meditate * {
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+#meditate span {
+  margin-left: 3em;
+  padding: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  font-weight: 100;
+  font-style: italic;
+}
+
+#meditate {
+  margin-top: -29em;
+  display: flex;
+}
+
+
+#ramen * {
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+#ramen span {
+  margin-right: 5em;
+  padding: 1em;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  font-weight: 100;
+  font-style: italic;
+}
+
+#ramen {
+  margin-top: -57em;
+  display: flex;
+}
+
+#ramen img {
+    width: 19em;
+}
+
+#conclusion {
+    margin-bottom: 5em;
+    margin-top: -27em;
 }
